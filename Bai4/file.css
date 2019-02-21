@@ -1,0 +1,124 @@
+*{
+    margin:0;
+}
+*,*:before, *:after{
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+}
+.container{
+    height: 240vh;
+    width: 550vw; 
+    background-color: palevioletred; 
+    background-size: 100% 100%; 
+    position: relative;
+}
+.box-center{
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 1100px;
+    height: 1500px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0,0 0, 0,5);
+}
+
+.Elonmusk{
+    padding-left: 50px;
+    text-align: left;
+    height: 150px;
+    background-color: blanchedalmond;
+    border: 1px solid blue;
+    position: relative;
+}
+
+.Elonmusk .box{
+    position: absolute;
+    left: 0px;
+    width: 0px;
+    height: 50px;
+    background-color: red;
+    top: 0px;
+}
+.Elonmusk img{
+    padding-left: 500px;
+    padding-bottom: 150px;
+    border-radius: 50%;
+    margin-bottom: 200px;
+    margin-left: 450px;
+    margin-top: 120px;
+    padding: 1px;
+    position: absolute;
+    height: 120px;
+    width: 120px;
+    border: 3px solid black;
+
+}
+.information{
+    padding-right: 150px;
+    position: absolute;
+    text-align: right;
+    line-height: 35px;
+    width: 400px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+.WorkEperience{
+    text-align: left;
+    line-height: 11px;
+    padding-left: 50px;
+    padding-top: 15px;
+    font-size: 15px;
+}
+.WorkEperience .p1{
+    padding-left: 200px;
+    color: orange;
+}
+.WorkEperience .p2{
+    color: orange;
+    line-height: 0.5;
+}
+.WorkEperience .p3{
+    font-size: 17px;
+    line-height: 2;
+}
+.WorkEperience p4{
+    font-size: 17px;
+}
+.Competence{
+    width: 400px;
+    position: absolute;
+    right: -0.1px;
+    top: 152px;
+    text-align: left;
+    line-height: 1.2;
+}
+.Competence p{
+    line-height: 1.5px;
+}
+.Competence p1{
+    font-size: 13px;
+    line-height: 1.5;
+}
+.progress{
+    display: inline-block;
+    margin: 20px;
+}
+.progress-bar{
+    background-color: white;
+    border: 1px solid orange;
+    width: 12rem; 
+}
+.bar{
+    width: 40px;
+    height: 20px;
+    background-color: red;
+    border: 1px solid blue;
+    margin: 0px;
+}
+
